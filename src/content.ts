@@ -27,7 +27,7 @@ export const CONTENT = {
       ],
       links: {
         github: "https://github.com/Shiva04-Dev/Impilo-Fallback",
-        vercel: "https://shivanagadan.vercel.app/"
+        vercel: "https://im-pilo.vercel.app/"
       }
     },
     {
@@ -54,8 +54,7 @@ export const CONTENT = {
       role: "Backend Developer",
       duration: "December 2025 – Present",
       tech: ["Java", "Spring Boot", "PostgreSQL", "Hibernate"],
-      description: "Scalable e-commerce backend featuring shopping cart logic, inventory management, product catalogue APIs, and secure user authentication.",
-      links: { github: "[OWNER TO COMPLETE]" }
+      description: "Scalable e-commerce backend featuring shopping cart logic, inventory management, product catalogue APIs, and secure user authentication."
     },
     {
       name: "Student Management System",
@@ -63,16 +62,14 @@ export const CONTENT = {
       duration: "April 2024 – November 2024",
       tech: ["C#", "Windows Forms", ".NET Framework", "MySQL", "Git"],
       description: "Led a team of 4 developers building a desktop application for student records management. Resolved data-mapping issues and mediated team conflicts.",
-      achievement: "98% final score — highest in cohort",
-      links: { github: "[OWNER TO COMPLETE]" }
+      achievement: "98% final score — highest in cohort"
     },
     {
       name: "SQL Portfolio",
       role: "Database Engineer",
       duration: "Ongoing",
       tech: ["SQL Server", "PostgreSQL", "T-SQL"],
-      description: "Multiple production-style database solutions (LibraryDB, HRDB, SalesDB) featuring ETL design, data normalisation, and query optimisation.",
-      links: { github: "[OWNER TO COMPLETE]" }
+      description: "Multiple production-style database solutions (LibraryDB, HRDB, SalesDB) featuring ETL design, data normalisation, and query optimisation."
     }
   ],
   leadership: [
