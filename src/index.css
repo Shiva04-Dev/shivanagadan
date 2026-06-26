@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-base: #1A1612;
+  --color-surface: #26211A;
+  --color-surface-elevated: #2E2820;
+  --color-primary-text: #F0EAE0;
+  --color-secondary-text: #9E9080;
+  --color-accent-primary: #C97D3A;
+  --color-accent-secondary: #7A9E8A;
+}
+
+@layer base {
+  body {
+    @apply bg-base text-primary-text font-sans antialiased selection:bg-accent-primary/30 selection:text-primary-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+  
+  h1 {
+    @apply tracking-tighter;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
