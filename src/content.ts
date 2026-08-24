@@ -112,7 +112,8 @@ export const CONTENT = {
     concepts: ["OOP", "MVC", "SDLC", "Agile", "AI Agents", "System Design", "Software Testing", "Database Design"]
   },
   certifications: [
-    { name: "AI-900: Microsoft Azure AI Fundamentals", issuer: "Microsoft", date: "April 2026" }
+    { name: "AI-900: Microsoft Azure AI Fundamentals", issuer: "Microsoft", date: "April 2026" },
+    { name: "AI-102: Microsoft Azure AI Associate", issuer: "Microsoft", date: "June 2026" }
   ],
   education: {
     degree: "Bachelor of Computing in Software Engineering with Honours",
